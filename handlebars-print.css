@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Sarabun&display=swap');
+
 body {
   font-family: Sarabun;
   font-size: .8rem;
@@ -37,9 +38,7 @@ body {
 }
 
 @media screen {
-  body {
-    background: #e0e0e0
-  }
+  body { background: #e0e0e0 }
   .sheet {
     background: white;
     box-shadow: none;
