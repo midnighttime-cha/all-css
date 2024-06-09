@@ -29,6 +29,22 @@ body {
   border-bottom: 1px solid #000;
 }
 
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
 .pd-left {
   padding-left: 1rem;
 }
@@ -38,7 +54,10 @@ body {
 }
 
 @media screen {
-  body { background: #e0e0e0 }
+  body {
+    background: #e0e0e0
+  }
+
   .sheet {
     background: white;
     box-shadow: none;
